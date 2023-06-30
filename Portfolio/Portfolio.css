@@ -1,0 +1,46 @@
+ul {                      
+    text-align: left;                
+    list-style: none; 
+}
+ul li {                                 
+    font: bold 12px/18px sans-serif; 
+    display: inline-block;            
+    position: relative;           
+    padding: 15px 20px;           
+             
+    cursor: pointer;                 
+    }
+    ul li:hover {                        
+   background: white;           
+    color: blue;                        
+   }
+   
+    ul li ul li {                   
+    background: plum;         
+   display: block;                
+   color: white;                  
+   }
+    ul li ul li:hover { background: lightcyan; }
+    ul li:hover ul {          
+    display: block;             
+    left :0px;                    
+    }
+
+    body{
+        background-color: rgb(176, 165, 151);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    footer {
+        background-color: aliceblue;
+    }
+
+    .container{
+      
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: auto 1fr auto;
+     
+    }
+   
